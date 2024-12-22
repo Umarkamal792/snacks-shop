@@ -1,0 +1,111 @@
+/* signup & login */
+
+.body1 {
+    background-color: rgb(44, 44, 44);
+}
+
+.container1 {
+    max-width: 550px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.form1 {
+    background-color: #656565;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: larger;
+}
+
+input {
+    width: 95%;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+.button1 {
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+    background-color: #2a2a2a;
+    color: rgb(255, 255, 255);
+    border: none;
+}
+
+.login-link {
+    text-align: center;
+    margin-top: 20px;
+    font-size: x-large;
+    color: rgb(255, 255, 255);
+}
+
+.login-link a {
+    font-size: x-large;
+    color: rgb(80, 173, 255);
+}
+
+@media only screen and (max-width: 480px) {
+    .container {
+        width: 90%;
+    }
+}
+
+
+/* home.html */
+
+
+.img1 {
+    width: 160px;
+    height: 60px;
+}
+
+.img2 {
+    padding-top: 10px;
+    width: 50px;
+}
+
+
+.navbar {
+    width: 90%;
+}
+
+
+/* page.html */
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+button {
+    border: none;
+    color: white;
+    background-color: rgb(42, 42, 42);
+    height: 40px;
+}
